@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <title>Rpay</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
+        
+    </head>
+  <body>
+
+    <div class="Header">
+        <div class="Logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="Navigation">
+             <div class="Bell">
+                <a href="#">
+                    <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="Avater">
+                <a href="javascript:void(0);">
+                    <figure><img src="images/user.jpg"></figure>
+                    Rpay
+                </a>
+                <ul>
+                    <li>
+                        <figure><img src="images/user.jpg"></figure>
+                        <h4><span>Administrator</span></h4>
+                    </li>
+                    <li>
+                        <!-- <a href="my-account.html">
+                            <span><i class="fa fa-user-o" aria-hidden="true"></i></span> My Account
+                        </a> -->
+                        <a href="settings.html">
+                            <span><i class="fa fa-cog"></i></span> Change Password
+                        </a>
+                        <a href="login.html">
+                            <span><i class="fa fa-sign-out"></i></span> Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="SidenavBar">
+        <ul>
+            <li class="active">
+                <a href="dashboard.html">
+                    <span><i class="fa fa-tachometer"></i></span> Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="users-management.html">
+                    <span><i class="fa fa-users"></i></span> User 
+                    Management
+                </a> 
+            </li> 
+
+             <li>
+                <a href="affilation-management.html">
+                    <span><i class="fa fa-globe" aria-hidden="true"></i></span>Affiliate Management
+                </a>
+            </li> 
+
+            <li>
+                <a href="fund-management.html">
+                    <span><i class="fa fa-money" aria-hidden="true"></i></span> Fund management
+                </a>
+            </li> 
+
+            <li>
+                <a href="reward-managment.html">
+                    <span><i class="fa fa-first-order" aria-hidden="true"></i></span>Reward & Coupon Management
+                </a>
+            </li>
+
+            <!-- <li>
+                <a href="support-managment.html">
+                    <span><i class="fa fa-th" aria-hidden="true"></i></span>Help & Support
+                </a>
+            </li> -->
+
+            <li>
+                <a href="report.html">
+                    <span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>Report
+                </a>
+            </li>
+
+            <li>
+                <a href="banner-managment.html">
+                    <span><i class="fa fa-medium" aria-hidden="true"></i></span>Media & Banner
+                </a>
+            </li>
+
+            <!-- <li>
+                <a href="terms-condition.html">
+                    <span><i class="fa fa-bell" aria-hidden="true"></i></span>Terms And Condition 
+                </a>
+            </li>
+
+            <li>
+                <a href="privacy-policy.html">
+                    <span><i class="fa fa-exchange"></i></span> Privacy Policy 
+                </a>
+            </li> -->
+
+            <li>
+                <a href="static-content.html">
+                    <span><i class="fa fa-exchange"></i></span> Static Content
+                    Management
+                </a>
+            </li>
+
+            <li>
+                <a href="login.html">
+                    <span><i class="fa fa-sign-out"></i></span> Logout
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="WrapperArea">
+        <div class="WrapperBox">
+
+            <div class="Small-Wrapper">
+                <div class="TitleBox">
+                    <h2>Dashboard Statistics</h2>
+                </div>
+
+                <div class="Filter">  
+                    <div class="form-group">
+                        <label>From Date</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>To Date</label>
+                        <input type="date" class="form-control">
+                    </div>  
+                    <div class="form-group">
+                        <label>Timeframe</label>
+                        <select class="form-control">
+                            <option value="select">--Select--</option>
+                            <option value="select">Today</option>
+                            <option value="Month">This Week</option>
+                            <option value="Month">This Month</option>
+                        </select>
+                    </div>  
+                    <div class="form-group">
+                        <label>&nbsp;</label>
+                        <button class="Button">Apply</button>
+                        <button class="Button Cancel"><i class="fa fa-refresh"></i></button>
+                    </div>
+                </div>
+
+                <div class="TitleBox">
+                    <h2>Users</h2>
+                    <button class="button Button">Refresh</button>
+                </div>
+                <br>
+                
+                <div class="DashboardBox">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <aside>
+                                    <span class="Icon"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                    <h3>4000 $</h3>
+                                    <p>Wallet</p>
+                                </aside>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void(0);">
+                                <aside>
+                                    <span class="Icon"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+                                    <h3>6000</h3>
+                                    <p>Users Count</p>
+                                </aside>
+                            </a>
+                        </li>
+                       
+                    </ul>
+                </div>  
+
+
+            </div>
+
+            <div class="Small-Wrapper">
+                <div class="TitleBox">
+                    <h2>Performance</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="AverageOrder" style="height: 450px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    
+    <script>
+        window.onload = function () {              
+            var chart = new CanvasJS.Chart("AverageOrder", {
+                animationEnabled: true,
+                theme: "light2",
+                title: {
+                    text: " ",
+                },
+                axisY: {
+                    title: "",
+                },
+                data: [
+                    {
+                        type: "column",
+                        showInLegend: true,
+                        legendMarkerColor: "grey",
+                        legendText: "Monthwise Average Order value (AOV)",
+                        dataPoints: [
+                            { y: 1000, label: "Team 1" },
+                            { y: 989, label: "Team 2" },
+                            { y: 568, label: "Team 3" },
+                            { y: 967, label: "Team 4" },
+                            { y: 789, label: "Team 5" },
+                        ],
+                    },
+                ],
+            });
+            chart.render();
+        };
+        function explodePie(e) {
+            if (typeof e.dataSeries.dataPoints[e.dataPointIndex].exploded === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+                e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+            } else {
+                e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+            }
+            e.chart.render();
+        }
+    </script>
+
+  </body>
+</html>
