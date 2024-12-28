@@ -336,7 +336,7 @@ td, th {border: 1px solid #dddddd;text-align: left;padding: 8px;text-align: cent
 
 .TitleBox{display: flex;justify-content: space-between;align-items: center;margin-bottom: 10px;}
 a.TitleLink {
-    background-image: linear-gradient(45deg,#077ca1,#077ca1);
+    background-image: linear-gradient(45deg, #32a89b, #32a89b);
     color: #fff;
     font-size: 14px;
     font-weight: 600;

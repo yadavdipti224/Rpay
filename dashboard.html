@@ -71,6 +71,12 @@
             </li> 
 
             <li>
+                <a href="affilate-plan-management.html">
+                    <span><i class="fa fa-th" aria-hidden="true"></i></span>Affiliate Plan management
+                </a>
+            </li> 
+
+            <li>
                 <a href="fund-management.html">
                     <span><i class="fa fa-money" aria-hidden="true"></i></span> Fund management
                 </a>
@@ -133,31 +139,6 @@
             <div class="Small-Wrapper">
                 <div class="TitleBox">
                     <h2>Dashboard Statistics</h2>
-                </div>
-
-                <div class="Filter">  
-                    <div class="form-group">
-                        <label>From Date</label>
-                        <input type="date" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label>To Date</label>
-                        <input type="date" class="form-control">
-                    </div>  
-                    <div class="form-group">
-                        <label>Timeframe</label>
-                        <select class="form-control">
-                            <option value="select">--Select--</option>
-                            <option value="select">Today</option>
-                            <option value="Month">This Week</option>
-                            <option value="Month">This Month</option>
-                        </select>
-                    </div>  
-                    <div class="form-group">
-                        <label>&nbsp;</label>
-                        <button class="Button">Apply</button>
-                        <button class="Button Cancel"><i class="fa fa-refresh"></i></button>
-                    </div>
                 </div>
 
                 <div class="TitleBox">
@@ -230,6 +211,7 @@
                         showInLegend: true,
                         legendMarkerColor: "grey",
                         legendText: "Monthwise Average Order value (AOV)",
+                        // year 2025: jan - dec
                         dataPoints: [
                             { y: 1000, label: "Team 1" },
                             { y: 989, label: "Team 2" },
